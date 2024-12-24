@@ -1,0 +1,70 @@
+.firstDiv {
+  height: 490px;
+  border-radius: 5px;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 10px;
+  border: solid 1px #efefef;
+  overflow: hidden;
+}
+.secondDiv {
+  height: 80px;
+}
+.firstDiv img {
+  width: 700px;
+  height: 320px;
+}
+.secondDiv img {
+  width: 300px;
+  height: 200px;
+}
+
+.plane {
+  border-radius: 5px;
+  overflow: hidden;
+  border: solid 1px #efefef;
+  height: 490px;
+  width: 383px;
+}
+.firstDiv h4 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.firstDiv p {
+  color: gray;
+}
+.imgHeader .blueWord {
+  font-size: 12px;
+  color: #0040d4;
+  font-weight: 600;
+}
+.secondDiv .blueWord {
+  font-size: 12px;
+  color: #0040d4;
+  font-weight: 600;
+}
+.secondDiv h1 {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.secondDiv p {
+  color: gray;
+}
+.secondDiv {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  padding: 13px 18px;
+}
+.lineBorderTop {
+  border-top: solid 1px #efefef;
+  width: 300px;
+  margin-top: 10px;
+}
+.border-top-width {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

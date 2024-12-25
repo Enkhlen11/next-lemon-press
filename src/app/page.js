@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
-
+import header from "@/style/header.module.css";
+import container from "../style/container.module.css";
 import Header from "@/components/Header";
 import News from "@/components/BreakingNews";
 import Container from "@/components/Container";
@@ -25,15 +26,15 @@ const componentArray = [
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className={header.bodyWidth}>
       <Header />
-      <div className={styles.rowImg}>
+      <div className={header.rowImg}>
         <img src="./rowImg.png" alt="" />
       </div>
       <News />
-      <div className="flexDiv">
+      <div className={container.flexDiv}>
         <Container />
-        <div className={styles.plane}>
+        <div className={container.plane}>
           <img src="/plane.webp" alt="" />
           {componentArray.map((oneObject) => {
             return (

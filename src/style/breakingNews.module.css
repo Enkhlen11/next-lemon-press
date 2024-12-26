@@ -27,7 +27,15 @@
 }
 .yellowBreak:hover {
   background-color: #fbff01;
-  animation: changecolor 2s infinite;
+  animation: changecolor 4s infinite;
+}
+@keyframes changecolor {
+  from {
+    background-color: #fbdb09;
+  }
+  to {
+    background-color: #fbff01;
+  }
 }
 .headerYellow {
   background-color: rgb(229, 224, 224);
@@ -37,7 +45,7 @@
 .headerYellow h2 {
   font-weight: 700px;
   height: 40px;
-  /* width: 920px; */
+  color: black;
   display: flex;
   margin-left: 20px;
   align-items: center;

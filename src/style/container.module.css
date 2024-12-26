@@ -34,6 +34,7 @@
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 20px;
+  color: black;
 }
 .firstDiv p {
   color: gray;
@@ -55,6 +56,7 @@
   font-size: 17px;
   margin-top: 5px;
   margin-bottom: 5px;
+  color: black;
 }
 .secondDiv p {
   color: gray;
